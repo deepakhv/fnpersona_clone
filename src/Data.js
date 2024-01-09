@@ -58,15 +58,15 @@ export default function Data() {
             </div>
             <div className="checkbox-group">
                 <h3>Account QC</h3>
-                <div>
+                <div className="checkbox-items">
                     <input type="checkbox" id="futureOption" name="accountQC" value="futureOption"/>
                     <label for="futureOption">Future Option Enabled</label>
                 </div>
-                <div>
+                <div className="checkbox-items">
                     <input type="checkbox" id="hedgeMode" name="accountQC" value="hedgeMode"/>
                     <label for="hedgeMode">Hedge Mode Enabled</label>
                 </div>
-                <div>
+                <div className="checkbox-items">
                     <input type="checkbox" id="noTradingPosition" name="accountQC" value="noTradingPosition"/>
                     <label for="noTradingPosition">No Current Trading Position</label>
                 </div>

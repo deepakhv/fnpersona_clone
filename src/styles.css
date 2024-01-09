@@ -101,3 +101,9 @@ select, input {
 .checkbox-group label{
     margin-left: 15px;
 }
+
+
+.checkbox-items label{
+    padding-top: 9px;
+    padding-left: 3px;
+}
